@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #f2e0e2;
+            height: 753px;
+        }
+        .container{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            padding: 126px;
+            border: 0;
+            border-radius: 9px;
+
+        }
+    
+        
+        .facebook{
+            margin-left: 10px;
+        }
+        .twitter{
+            margin-bottom: 20px;
+        }
+        .form,.side{
+            width: 50%;
+            align-items: center;
+            background-color: whitesmoke;
+            height: 500px;
+            width: 400px;
+            border: 1px solid black;
+            text-align: center;
+            box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.514);
+        }
+        .form{
+            border-top-left-radius:15px ;
+            border-bottom-left-radius: 15px;
+        }
+        .form h1{
+            font-size: 55px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 40px;
+           
+        }
+        .box{
+            padding: 12px;
+            width: 65%;
+            margin: 15px;
+            border: 1px solid black;
+            outline: none;
+        }
+        #submit{
+            padding: 12px 68px;
+            margin-top: 40px;
+            background: linear-gradient(90deg, #ff4266, #ff464d);
+            color: white;
+            text-align: center; 
+            font-weight: bold;
+            border: none;
+            border-radius: 20px;   
+        }
+    
+        .column {
+            padding: 5px;
+        }
+        
+        a{
+            text-align: center;
+        }
+        span{
+            text-align: center;
+        
+        }
+        .side{
+            padding: 48px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: linear-gradient(90deg, #ff4266, #ff464d);
+            color: white;
+            border-bottom-right-radius: 15px;
+            border-top-right-radius: 15px;
+            
+        }
+        .side p{
+            font-size: 37px;
+            
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <h1>Login</h1>
+
+   
+        <span>
+           <a href="https://www.facebook.com/"> <img class="column"src="https://www.freepnglogos.com/uploads/logo-facebook-png/logo-facebook-facebook-logo-png-transparent-svg-vector-bie-supply-18.png" width="40px" alt="fb_image"></a>
+          <a href="https://twitter.com/i/flow/login"> <img class="column"src="https://assets.stickpng.com/images/5a2fe479cc45e43754640849.png" width="40px" alt="fb_image"></a> 
+
+        </span>
+
+       
+            <p>or use your account</p>
+            <input type="email" name="email" class="box" placeholder="Email">
+            <input type="password" name="password" class="box" placeholder="Password">
+            <p>forget password?</p>
+            <input type="submit" value="LOG IN" id="submit"> </form>
+        
+
+            <div class="side">
+                <p>HTML CSS Login Form</p><br>
+                The login form is created using pure HTML and CSS. For social icons, FrontAwesome is used.
+                </div>
+            
+            
+        
+    </div>
+    
+</body>
+</html
